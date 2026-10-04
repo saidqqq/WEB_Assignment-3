@@ -36,7 +36,7 @@ Mobile: 1 column
 Tablet: 2 columns
 Desktop: 3 columns
 
-![2](170414.png)
+![2](165649.png)
 
 ![2t](170657.png)
 
@@ -63,7 +63,7 @@ The layout changes depending on the screen size, and some extra information is h
 
 ![4t](171804.png)
 
-![4m](171818.png)
+![4m](177777.png)
 
 ---
 
