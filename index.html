@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WEB_3-assignment</title>
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--bootstrap nav-->
+    <nav class="navbar navbar-expand-lg navbar-dark nav">
+        <div class="container">
+            <div class="name"> SOUNDSPACE </div>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainMenu"
+                aria-controls="mainMenu"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#artists">
+                            Artists
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#genres">
+                            Genres
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#playlists">
+                            Playlists
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">
+                            About
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--responsive typography-->
+    <header class="hero" id="home">
+        <div class="ccontainer">
+            <h1> Music for every <span>mood.</span> </h1>
+            <p class="hero-dtext">
+                A collection of artists, albums and songs.
+            </p>
+        </div>
+    </header>
+
+
+    <!--responsive layout-css media quaries-->
+    <section class="artists" id="artists">
+        <div class="ccontainer">
+            <div class="s-title">
+                <h2>Featured Artists</h2>
+                <p>TOP-3 favorite artists and their most listenable songs.</p>
+            </div>
+            <div class="ar-layout">
+                <article class="ar-card">
+                    <h3>The Neighbourhood</h3>
+                    <p>
+                    An alternative band with a dark and recognizable sound.
+                    </p>
+                    <p class="song">
+                        Cry Baby
+                    </p>
+                    <p class="song">
+                        Nervous
+                    </p>
+                    <p class="song">
+                        #icanteven
+                    </p>
+                </article>
+
+                <article class="ar-card">
+                    <h3>wave to earth</h3>
+                    <p>
+                    An indie rock band with soft and atmospheric music.
+                    </p>
+                    <p class="song">
+                        love.
+                    </p>
+                    <p class="song">
+                        bonfire
+                    </p>
+                    <p class="song">
+                        homesick
+                    </p>
+                </article>
+
+                
+                <article class="ar-card">
+                    <h3>Ninety One</h3>
+                    <p>
+                    A Kazakh Q-pop group with a unique style and sound.
+                    </p>
+                    <p class="song">
+                        Qalay Qaraisyn
+                    </p>
+                    <p class="song">
+                        Qaiyrly Tun
+                    </p>
+                    <p class="song">
+                        O_o
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+    <!--12colums bootstrap grid-->
+    <section class="genres" id="genres">
+        <div class="ccontainer">
+            <div class="s-title">
+                <h2>Genres</h2>
+                <p>Music that I enjoy listening to.</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- mobile:12/12   tablet:6/12  desktop: 4/12 -->
+                <div class="col-12  col-md-6     col-lg-4">
+                    <article class="al-card">
+                        <img src="5337245787777344380.jpg" alt="1" class="al-cover">
+                        <div class="al-info">
+                            <h3>R&B & Rap</h3>
+                            <p>Kendrick Lamar, Childish Gambino, Frank Ocean, ...</p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <article class="al-card">
+                        <img src="5337245787777344381.jpg" alt="2" class="al-cover">
+                        <div class="al-info">
+                            <h3>Alternative Rock & Indie</h3>
+                            <p>The Neighbourhood, Arctic Monkeys, Montell fish, ...</p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <article class="al-card">
+                        <img src="5337245787777344382.jpg" alt="2" class="al-cover">
+                        <div class="al-info">
+                            <h3>Q-POP</h3>
+                            <p>Ninety One, Ayau, plecto, ...</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--responsive portfolio - bootstrapgrid+cssmediaqueries -->
+    <section class="portfolio" id="portfolio">
+        <div class="ccontainer">
+            <div class="s-title">
+                <h2>Playlists:</h2>
+                <p>Music collections for diff mood.</p>
+            </div>
+
+            <div class="row g-4">
+                <!--left-->
+                <main class="col-12 col-lg-8">
+                    <div class="row g-4">
+                        <div class="col-12 col-md-6">
+                            <article class="proj-card">
+                                <h3>Late Night Playlist</h3>
+                                <p>A calm playlist for studying and quiet evenings.
+                                </p>
+                            </article>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <article class="proj-card">
+                                <h3>Favorite Songs</h3>
+                                <p>A collection of songs that I listen to the most.</p>
+                            </article>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <article class="proj-card">
+                                <h3>Music Memories</h3>
+                                <p>A collection of my favorite moments connected with music.</p>
+                            </article>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <article class="proj-card">
+                                <h3>New Music</h3>
+                                <p>New artists and songs I discovered recently.</p>
+                            </article>
+                        </div>
+                    </div>
+                </main>
+
+                <!-- right-sidebar -->
+                <aside class="col-12 col-lg-4" id="about">
+                    
+                    <div class="about-card">
+                        <img src="profile.jpg" alt="My profile photo" class="profile-photo">
+                        <h2>About Me</h2>
+                        <p>
+                            love listening to music and different genres too.
+                            this website shows some of my favorite music.
+                        </p>
+
+
+                        <div class="about-line"></div>
+                    
+                        <!-- hidden on mobile -->
+                        <div class="info extra-info">
+                            <span>Contact</span>
+                            <strong>
+                                254302@astanait.edu.kz
+                            </strong>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+
+    <!--footer-->
+    <footer>
+        <div class="ccontainer footer-content">
+            <div class="footer-logo">SOUNDSPACE</div>
+            <p>© 2026 SoundSpace</p>
+        </div>
+    </footer>
+
+
+    <!--bootstrap JavaScript -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+</html>
